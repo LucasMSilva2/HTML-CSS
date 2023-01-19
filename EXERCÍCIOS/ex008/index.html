@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Formatações de Textos</title>
+    <style>
+        mark {
+            background-color: rgb(0, 255, 157);
+        }
+    </style>
+</head>
+<body>
+    <h1>Principais formatações de textos</h1>
+    <h2>Negrito e Destaque</h2>
+    <p>Nesta frase temos um <b>termo em destaque,</b> para isso usamos a tag b(não semântico / não legal)</p>
+    <p>Já nesta frase, temos um <strong>termo em destaque,</strong> usando o STRONG (Semântico).</p>
+    <h2>Itálico / Ênfase</h2>
+    <p>Nesta frase temos um <i>termo em itálico</i> usando a tag i (não semântica).</p>
+    <p>Nesta frase, temos um <em>termo em ênfase</em> usando a tag EM (semântica).</p>
+    <h2>Texto marcado</h2>
+    <p>Nesta frase, temos uma parte marcada, usando a <mark style="background-color: cadetblue;">tag MARK/</mark>, caso queiramos mudar a cor, <mark>usamos a tag style dentro do MARK ou do head</mark> (cabeçalho/ tem-se um efeito geral).</p>
+    <p><mark>Desse jeitinho</mark> assim.</p>
+    <h2>Texto grande e pequeno</h2>
+    <p>Estamos criando <big>um texto grande</big> e um <small>texto pequeno</small>.</p> <!--big funciona, mas ele esta obsoleto, deve ser evitado o uso.-->
+    <h2>Texto deletado</h2>
+    <p>Podemos marcar <del>um texto como excluido</del>, para indicar que ele pode ser lido, porém desconsiderado(semântica).</p>
+    <p><small>Antes era usada <strike>a tag strike para isso</strike>, porém ela entrou em desuso e substituida por <mark>del</mark>.</small>(não semântica)</p>
+    <h2>Texto inserido</h2>
+    <p>Podemos marcar um <ins>texto como inserido</ins> para dar ênfase e indicar que ele foi adicionado depois(semântica).</p>
+    <p><small>Antes era usada <u>a tag U</u> para isso, mas ela entrou em desuso e foi substituida por <mark>ins</mark>.</small>(não semântica)</p>
+    <h2>Texto Sobrescrito</h2>
+    <p>Para inserir coisas do tipo: x<sup><mark>20</mark></sup> + 5 = x<sup><mark>1</mark></sup>.</p>
+    <p><small>usa-se a tag sup</small></p>
+    <h2>Texto Subscrito</h2>
+    Para inserir coisas do tipo H<sub><mark>2</mark></sub>O.
+    <p><small>usa-se a tag sub</small></p>
+    <h2>Patrícia Rainha</h2>
+    <img src="200px.jpg" alt="Foto de Patrícia">
+    <h3>Caracteristicas de Patrícia</h3>
+    <p>Além de ser<strong> Bonita</strong>, é muito simpática. <br> É muito <em>legal e divertida</em></p>
+
+
+</body>
+</html>

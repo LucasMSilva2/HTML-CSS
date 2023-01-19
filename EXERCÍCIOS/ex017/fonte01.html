@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            /* Medidadas Absolutas
+               cm, mm, in, px, pt, pc
+               
+               Medidas Relativas
+               em, ex, rem, vw, vh*/
+            font-size: 1em ; 
+
+            /* weight = peso / width = largura / height = altura  */
+            /* Variações: lighter / normal / bold / bolder */
+            /* Variações Numéricas: 100 até 900 */
+           
+        }
+
+        h1 {    
+            /* shorthand font
+                - font-style -> font-weight -> font-size -> font-family
+                
+                font-family: 'Work Sans', 'sans-serif';
+                font-weight: bolder;
+                font-size: 3em;
+                font-style: italic;
+
+                shorthand é uma forma de escrever várias linhas em uma só, essas 4 linhas foram escritas em uma logo abaixo, lembrando que tem que seguir a ordem: - font-style -> font-weight -> font-size -> font-family
+            */
+            font: italic bolder 3em 'Work Sans', sans-serif;
+           }
+
+           h2 {
+               font: bold 2em 'Time News Roman';
+           }
+         
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio nobis aperiam ea. Quam sed expedita numquam provident et, cupiditate, doloremque nobis corporis aspernatur labore deserunt quisquam. Placeat voluptatibus mollitia optio. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda hic, ipsum deserunt, doloremque esse vitae optio illum sit fugiat quod omnis deleniti provident, quas consequuntur tenetur in animi fuga eveniet?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, delectus similique. Dolorum, quisquam. Eaque, quam sapiente. Impedit tempore reiciendis amet eveniet, provident at vel. Minima, voluptas voluptatem. Quas, rerum quo?</p>
+
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit corporis inventore temporibus cum quibusdam dicta delectus porro repudiandae laudantium repellat corrupti voluptate, ipsum sequi nihil fuga veritatis dignissimos error. Veniam.</p>
+    
+</body>
+</html>

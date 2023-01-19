@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes, ou simplesmente aumente ou diminua a sua tela do navegador.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/imagem-P.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/imagem-M.png" type="image/png">
+        <img src="imagens/imagem - G.png" alt="Imagem flexível">
+    </picture>
+    <h1>Reproduzindo áudios</h1>
+    <p>No HTML5 é possível reproduzir áudio de uma maneira simples, usando as <code>tags audio e source.</code></p>
+    <audio controls autoplay preload="metadata" loop>
+        <source src="midia/Interstellar Mood - Nico Staf.mp3" type="audio/mpeg">
+        <source src="midia/Interstellar Mood - Nico Staf.ogg" type="audio/ogg">
+        <source src="midia/Interstellar Mood - Nico Staf.wav" type="audio/wav">
+        <p>Desculpa, seu navegador não é capaz de reproduzir esse audio, <a href="midia/Interstellar Mood - Nico Staf.mp3" download="midia/Interstellar Mood - Nico Staf.mp3" type="audio/mpeg">click aqui</a> para fazer o download do audio.</p>
+    </audio>
+</body>
+</html>

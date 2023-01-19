@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras formatações</title>
+    <style>
+    mark {
+        background-color: aquamarine;
+    }
+    </style>
+</head>
+<body>
+    <h1>Outras formatações</h1>
+    <h2>Código-fonte / Pré-formatação</h2>
+    <p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem JavaScript.</p>
+    <p><small>Dentro de uma tag code, todo código fica mais fácil de entender, pois elas ficam <mark>mono-espaçadas</mark>.</small></p>
+    <pre>
+        <code>
+    main(){
+        int number;
+        scanf("%d", &number);
+        if(number % 2 == 0);
+            printf("Seu número é par.");
+        else
+            printf("Seu número é ímpar.");
+    }
+        </code>
+    </pre>
+    <h2>Citações</h2>
+    <p>Como diria um pai de um amigo: <q>o computador é um burro muito rápido.</q></p>
+    <p><small>É recomendado o uso da tag q, ao invés de colocar diretamente as aspas em citações.</small></p>
+    <h2>Citações completas</h2>
+    <p>Segundo Patrick Rothfuss, escritor de O nome do vento.</p>
+    <blockquote cite="https://citacoes.in/citacoes/983641-patrick-rothfuss-quando-criancas-raramente-pensamos-no-futuro-ess/">
+        Quando crianças, raramente pensamos no futuro. Essa inocência nos deixa livres para nos divertirmos como poucos adultos conseguem. O dia que nos inquietamos com o futuro é aquele em que deixamos a infância para trás
+    </blockquote>
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>, estou adorando.</p>
+    <h2>Texto Invertido</h2>
+    <p><bdo dir="rtl">Lucas é um gostosão.</bdo></p>
+    <p><small>rtl = right to left (direira para esquerda)/ ltr = left to rigth (esquerda para direira).</small></p>
+    
+</body>
+</html>
